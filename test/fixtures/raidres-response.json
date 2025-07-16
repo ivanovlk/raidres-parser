@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "id": "K29JNG",
+    "instance": 101,
+    "instances": [
+      "Karazhan"
+    ]
+  },
+  "softreserves": [
+    {
+      "name": "Bauchelain",
+      "items": [
+        {
+          "id": 61450
+        }
+      ]
+    },
+    {
+      "name": "Renadrion",
+      "items": [
+        {
+          "id": 61277
+        }
+      ]
+    },
+    {
+      "name": "Jogobobek",
+      "items": [
+        {
+          "id": 61453
+        }
+      ]
+    },
+    {
+      "name": "Sndr",
+      "items": [
+        {
+          "id": 61299
+        }
+      ]
+    },
+    {
+      "name": "Sut",
+      "items": [
+        {
+          "id": 61450
+        }
+      ]
+    },
+    {
+      "name": "Anntia",
+      "items": [
+        {
+          "id": 61263
+        }
+      ]
+    },
+    {
+      "name": "Druth",
+      "items": [
+        {
+          "id": 61277
+        }
+      ]
+    }
+  ]
+}

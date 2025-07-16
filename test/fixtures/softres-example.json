@@ -1,0 +1,229 @@
+{
+  "hardreserves": [],
+  "metadata": {
+    "createdAt": 1722927918,
+    "discordUrl": "",
+    "hidden": false,
+    "id": "8dknh2",
+    "instance": null,
+    "instances": [
+      "zg"
+    ],
+    "lockedAt": null,
+    "note": "",
+    "raidStartsAt": null,
+    "updatedAt": 1722929926
+  },
+  "softreserves": [
+    {
+      "class": "warrior",
+      "items": [
+        {
+          "id": 19862,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Bhishma",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "warlock",
+      "items": [
+        {
+          "id": 22637,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Flickering",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "paladin",
+      "items": [
+        {
+          "id": 19890,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Windfurysuck",
+      "note": "resto sham",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "warrior",
+      "items": [
+        {
+          "id": 19854,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Babyray",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "warrior",
+      "items": [
+        {
+          "id": 19914,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Warkarlan",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "priest",
+      "items": [
+        {
+          "id": 19861,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Washbear",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "warrior",
+      "items": [
+        {
+          "id": 19872,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Execlol",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "warrior",
+      "items": [
+        {
+          "id": 19855,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Jogobobek",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "hunter",
+      "items": [
+        {
+          "id": 22637,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Metamorfis",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "warlock",
+      "items": [
+        {
+          "id": 19861,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Happydrama",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "paladin",
+      "items": [
+        {
+          "id": 19802,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Ledhead",
+      "note": "enhancement shaman",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "hunter",
+      "items": [
+        {
+          "id": 22637,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Hesushunt",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "paladin",
+      "items": [
+        {
+          "id": 22637,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Pitforce",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "druid",
+      "items": [
+        {
+          "id": 19856,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Seekdayz",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    },
+    {
+      "class": "warrior",
+      "items": [
+        {
+          "id": 19907,
+          "note": "",
+          "order": 0
+        }
+      ],
+      "name": "Carapilsken",
+      "note": "",
+      "plusOnes": 0,
+      "rollBonus": 0
+    }
+  ]
+}
