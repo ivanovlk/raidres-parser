@@ -90,18 +90,12 @@ async fn api_handler(Path(id): Path<String>) -> impl IntoResponse {
 
     let raidres_response = match fetch_raidres_data(&id, &client).await {
         Ok(r) => r,
-        Err(e) => {
-            eprintln!("Error fetching raidres data: {:?}", e);
-            return (axum::http::StatusCode::BAD_REQUEST, format!("{:?}", e));
-        }
+        Err(e) => return (axum::http::StatusCode::BAD_REQUEST, e.to_string()),
     };
 
     let raid_response = match fetch_raid_data(raidres_response.raid_id, &client).await {
         Ok(r) => r,
-        Err(e) => {
-            eprintln!("Error fetching raidres data: {:?}", e);
-            return (axum::http::StatusCode::BAD_REQUEST, format!("{:?}", e));
-        }
+        Err(e) => return (axum::http::StatusCode::BAD_REQUEST, e.to_string()),
     };
 
     let output = Output {
@@ -111,6 +105,10 @@ async fn api_handler(Path(id): Path<String>) -> impl IntoResponse {
             instances: vec![raid_response.name],
         },
         softreserves: get_soft_reserves(&raidres_response.reservations, &raid_response.raid_items),
+        hardreserves: get_hard_reserves(
+            &raidres_response.disabled_raid_item_ids,
+            &raid_response.raid_items,
+        ),
     };
 
     let json = match serde_json::to_string(&output) {
@@ -127,9 +125,8 @@ async fn main() {
     let app = Router::new().route("/api/:id", get(api_handler));
     let addr = SocketAddr::from(([0, 0, 0, 0], 8383));
     println!("Listening on {}", addr);
-
-    let listener = tokio::net::TcpListener::bind(addr).await.unwrap();
-    axum::serve(listener, app.into_make_service())
+    axum::Server::bind(&addr)
+        .serve(app.into_make_service())
         .await
         .unwrap();
 }

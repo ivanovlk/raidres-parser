@@ -5,6 +5,8 @@ pub(crate) struct RaidresResponse {
     #[serde(rename = "raidId")]
     pub(crate) raid_id: i32,
     pub(crate) reservations: Vec<ReservationData>,
+    #[serde(rename = "disabledRaidItemIds")]
+    pub(crate) disabled_raid_item_ids: Vec<i32>,
 }
 
 #[derive(Deserialize, Debug)]
@@ -38,6 +40,7 @@ pub(crate) struct RaidItem {
 pub(crate) struct Output {
     pub(crate) metadata: Metadata,
     pub(crate) softreserves: Vec<SoftReserve>,
+    pub(crate) hardreserves: Vec<Item>,
 }
 
 #[derive(Serialize)]

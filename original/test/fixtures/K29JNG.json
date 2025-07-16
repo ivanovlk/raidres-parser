@@ -1,0 +1,130 @@
+{
+  "id": 14647,
+  "startTime": "2024-08-07T01:03:00.000Z",
+  "raidId": 101,
+  "description": "",
+  "allowDuplicateReservation": false,
+  "reservationLimit": 1,
+  "lockAtStartTime": false,
+  "locked": true,
+  "authorId": "319143574778150913",
+  "disabledRaidItemIds": [
+    6676
+  ],
+  "reservations": [
+    {
+      "id": 252729,
+      "raidItemId": 6659,
+      "comment": "",
+      "updatedAt": "2024-08-07T01:06:40.605Z",
+      "character": {
+        "name": "Bauchelain",
+        "class": "Warlock",
+        "specialization": "Demonology",
+        "nameStyle": null
+      },
+      "user": {
+        "id": "580710850466152458",
+        "name": "Velynthir"
+      }
+    },
+    {
+      "id": 252730,
+      "raidItemId": 6688,
+      "comment": "",
+      "updatedAt": "2024-08-07T01:06:44.745Z",
+      "character": {
+        "name": "Renadrion",
+        "class": "Paladin",
+        "specialization": "Retribution",
+        "nameStyle": null
+      },
+      "user": {
+        "id": "366783424503087106",
+        "name": "artas2406"
+      }
+    },
+    {
+      "id": 252731,
+      "raidItemId": 6692,
+      "comment": "",
+      "updatedAt": "2024-08-07T01:08:25.982Z",
+      "character": {
+        "name": "Jogobobek",
+        "class": "Warrior",
+        "specialization": "Protection",
+        "nameStyle": null
+      },
+      "user": {
+        "id": "226247054312210433",
+        "name": "obszczymucha"
+      }
+    },
+    {
+      "id": 252735,
+      "raidItemId": 6690,
+      "comment": "",
+      "updatedAt": "2024-08-07T01:17:00.242Z",
+      "character": {
+        "name": "Sndr",
+        "class": "Warrior",
+        "specialization": "Fury",
+        "nameStyle": null
+      },
+      "user": {
+        "id": "394814925907951616",
+        "name": "deathwishc"
+      }
+    },
+    {
+      "id": 252736,
+      "raidItemId": 6659,
+      "comment": "",
+      "updatedAt": "2024-08-07T01:20:26.370Z",
+      "character": {
+        "name": "Sut",
+        "class": "Mage",
+        "specialization": "Frost",
+        "nameStyle": null
+      },
+      "user": {
+        "id": "460472046007222272",
+        "name": "quayen"
+      }
+    },
+    {
+      "id": 252737,
+      "raidItemId": 6670,
+      "comment": "",
+      "updatedAt": "2024-08-07T01:23:49.992Z",
+      "character": {
+        "name": "Anntia",
+        "class": "Rogue",
+        "specialization": "Daggers",
+        "nameStyle": null
+      },
+      "user": {
+        "id": "814610830317715456",
+        "name": "maladin3841"
+      }
+    },
+    {
+      "id": 252739,
+      "raidItemId": 6688,
+      "comment": "",
+      "updatedAt": "2024-08-07T01:27:07.512Z",
+      "character": {
+        "name": "Druth",
+        "class": "Paladin",
+        "specialization": "Holy",
+        "nameStyle": null
+      },
+      "user": {
+        "id": "1140429918270931138",
+        "name": "blod_nordurs"
+      }
+    }
+  ],
+  "hasAuditData": true,
+  "eventHubToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJtZXJjdXJlIjp7InN1YnNjcmliZSI6WyJldmVudHMvSzI5Sk5HIl19LCJleHAiOjE3MjMwMzI0MzF9.6b_qmirumzk0Zu6Bbgcnwa4eCq3I8c5N5YW6ih4uPh0"
+}
